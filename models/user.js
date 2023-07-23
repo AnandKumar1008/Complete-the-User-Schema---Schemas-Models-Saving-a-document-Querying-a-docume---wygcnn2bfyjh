@@ -2,7 +2,7 @@ const { string } = require("joi");
 var mongoose = require("mongoose");
 
 //Write your schema here with name of schema as userSchema
-userSchema = {
+const userSchema = {
   name: {
     type: String,
     required: true,
